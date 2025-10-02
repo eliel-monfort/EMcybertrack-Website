@@ -6,14 +6,3 @@ theme = 'PaperMod'
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
-
-menu:
-  main:
-    - identifier: Projects
-      name: Projects
-      url: /Projects/
-      weight: 10
-    - identifier: Blogs
-      name: Blogs
-      url: /Blogs/
-      weight: 20

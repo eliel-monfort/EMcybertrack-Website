@@ -3,6 +3,21 @@ languageCode = 'en-us'
 title = 'EM cybertrack site'
 theme = 'PaperMod'
 
+menu:
+  main:
+    - identifier: Projects
+      name: Projects
+      url: /Projects/
+      weight: 10
+    - identifier: Blogs
+      name: Blogs
+      url: /Blogs/
+      weight: 20
+
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
+
+[author]
+  name = "Eliel Monfort"
+  homepage = "https://github.com/eliel-monfort/"

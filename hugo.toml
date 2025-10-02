@@ -2,3 +2,7 @@ baseURL = 'https://eliel-monfort.github.io/EMcybertrack-Website/'
 languageCode = 'en-us'
 title = 'EM cybertrack site'
 theme = 'PaperMod'
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
